@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Workshop</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logobox">
+            <div class="logo">
+                <img src="logo.jpg" alt="logo">
+            </div>
+            <div class="logop">
+                <p>CarCrowd</p>
+            </div>
+        </div>
+        <div class="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Models</a></li>
+            <li><a href="/">Prices</a></li>
+            <li><a href="/">Insurance</a></li>
+        </div>
+    </nav>
+    <div class="mainContainer">
+        <div class="heading">
+            <h1>
+                CAR SHOWROOM
+            </h1>
+        </div>
+        <div class="buttons">
+            <button onclick="allCars()" class="ShowAll">
+                Show All
+            </button>
+            <button onclick="hondaCars()" class="honda">
+                Honda
+            </button>
+            <button onclick="corollaCars()" class="corolla">
+                Corolla
+            </button>
+            <button onclick="suzukiCars()" class="suzuki">
+                Suzuki
+            </button>
+            <button onclick="audiCars()" class="Audi">
+                Audi
+            </button>
+            <button onclick="Bike()" class="Bike">
+                Bike
+            </button>
+            <button onclick="Bicycle()" class="Bicycle">
+                Bicycle
+            </button>
+        </div>
+        <div class="search">
+            <input type="text" id="searchCar" class="searchBox" placeholder="Search By Car Name.." onkeyup="searchBox()">
+        </div>
+        <div id="card1">
+
+        </div>
+    </div>
+    <script src="./home.js"></script>
+</body>
+
+</html>
